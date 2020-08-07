@@ -1,0 +1,29 @@
+
+.resume-grid i {
+    color: white;
+    font-size: 40px;
+}
+
+.resume-grid i :last-child {
+    margin-left: 20px;
+}
+
+.resume-grid {
+    height: 100px;
+    color: white;
+}
+
+.resume-grid span {
+    font-size: 14px;
+    color: white;
+
+}
+
+.resume-date {
+    color: red;
+    margin-left: 70px;
+}
+
+.border-top-white {
+    border-top: white 1px solid;
+}
