@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-
-
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
 import AboutMe from './components/AboutMe/AboutMe';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+
 class App extends Component {
 
     constructor(props) {

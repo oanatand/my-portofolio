@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Projects.css'
-// import { Button } from 'react-mdl';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button } from 'react-bootstrap';
@@ -9,8 +8,12 @@ class Projects extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container">
-                    <h4 className="projects-title font-weight-bold">My Recent Work</h4>
+                <div className="container pt-0" id="projects-container">
+                    <Row className="projects-title">
+                        <Col className="pl-0 pr-0">
+                            <h4 className="text-white bold-text">My Recent Work</h4>
+                        </Col>
+                    </Row>
                     <section className="projects-grid" id="projects">
                         <Row>
                             <Col>
@@ -150,11 +153,8 @@ class Projects extends Component {
                                             <div className="card">
                                                 <div className="card__side card__side--front-3">
                                                     <div className="card__title card__title--3">
-
                                                         <h4>Tic-Tac-Toe</h4>
                                                     </div>
-
-
                                                 </div>
                                                 <div className="card__side card__side--back card__side--back-3">
                                                     <div className="app__description">
@@ -175,7 +175,6 @@ class Projects extends Component {
                                         </div>
                                     </div>
                                 </section>
-
                             </Col>
                         </Row>
                     </section>

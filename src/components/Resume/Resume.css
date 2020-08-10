@@ -1,4 +1,3 @@
-
 .resume-grid i {
     color: white;
     font-size: 40px;
@@ -13,17 +12,78 @@
     color: white;
 }
 
+.title {
+margin-left: -15px;
+color: white;
+font-weight: bold;
+}
+
 .resume-grid span {
     font-size: 14px;
     color: white;
-
-}
-
-.resume-date {
-    color: red;
-    margin-left: 70px;
 }
 
 .border-top-white {
     border-top: white 1px solid;
+}
+
+@media (max-width: 576px) {
+    .resume-grid {
+        display: block !important;
+    }
+    .border-top-white {
+        text-align: center;
+    }
+    .resume-grid .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .resume-grid>.col>.row .col-2 {
+        margin-right: 5px;
+    }
+    .resume-grid>.col {
+        margin-bottom: 10px;
+    }
+    .resume-grid:last-child {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 576px) {
+    .resume-grid {
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    .resume-grid .col .pl-0 span {
+        font-size: smaller;
+    }
+    .resume-grid .col .pl-0 .text-danger {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+    .resume-grid .col .pl-0 span {
+        font-size: xx-small;
+    }
+    .resume-grid .col .pl-0 .text-danger {
+        font-size: xx-small;
+    }
+    .resume-grid>.col>.row .col-2 {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 279px) {
+    .resume-grid .col .pl-0 span {
+        font-size: xx-small;
+    }
+    .resume-grid .col .pl-0 .text-danger {
+        font-size: xx-small;
+    }
+    .resume-grid>.col>.row .col-2 {
+        margin-right: 15px;
+    }
 }

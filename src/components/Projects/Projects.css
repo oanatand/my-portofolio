@@ -1,7 +1,9 @@
 .projects-title {
-    color: white;
-    border-top: white 1px solid;
-    padding: 10px;
+  border-top: white 1px solid;
+}
+
+.bold-text {
+  font-weight: 700 !important;
 }
 
 .section-projects {
@@ -10,10 +12,10 @@
 
 .card {
   background-color: #232526;
-  border:#232526;
+  border: #232526;
   color: white;
   -webkit-perspective: 150rem;
-          perspective: 150rem;
+  perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 25rem;
@@ -46,7 +48,7 @@
 
 .card__side--back {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card__side--back-1 {
@@ -61,16 +63,14 @@
   background: linear-gradient(-45deg, #9a4eff, #24ff72);
 }
 
-.card:hover .card__side--front-1,
-.card:hover .card__side--front-2,
-.card:hover .card__side--front-3 {
+.card:hover .card__side--front-1, .card:hover .card__side--front-2, .card:hover .card__side--front-3 {
   -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 
 .card:hover .card__side--back {
   -webkit-transform: rotateY(0);
-          transform: rotateY(0);
+  transform: rotateY(0);
 }
 
 .card__title {
@@ -87,7 +87,7 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 90%;
   text-align: center;
 }
@@ -95,14 +95,12 @@
 .row {
   max-width: 114rem;
   margin: 0 auto;
-}
-
-.row [class^="col-"]:not(:last-child) {
-  margin-right: 6rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row .col-1-of-3 {
-  width: calc((100% - 2 * 6rem) / 3);
+  width: 300px;
 }
 
 .transparency {
@@ -118,9 +116,21 @@
   color: whitesmoke;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, 
-.btn-primary:not(:disabled):not(.disabled):active,
-.show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
   background-color: rgba(247, 247, 247, 0.15);
 }
 
+@media (max-width: 576px) {
+  #projects-container {
+    text-align: center;
+  }
+  .col-1-of-3 {
+    margin-bottom: 35px;
+  }
+  .section-projects {
+    padding: 0;
+  }
+  .section-projects .row {
+    justify-content: center;
+  }
+}

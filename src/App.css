@@ -1,33 +1,3 @@
 body {
     background-color: #232526;
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 350px) { 
-.navbar-toggler-icon {
-    visibility: visible;
-}
-
-.row .col-1-of-3 {
-    width: calc(100% - 2 * 6rem);
-  }
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .#home-section {
-        /* display: block; */
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .container {
-        width: 1200px;
-        margin: 0 auto;
-    }
-}

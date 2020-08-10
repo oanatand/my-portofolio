@@ -31,7 +31,7 @@ class Header extends Component {
                                 <li className="nav-item">
                                     <Link to="projects" className="nav-link" spy={true}
                                         smooth={true}
-                                        offset={-122}
+                                        offset={-125}
                                         duration={500}>Projects</Link>
                                 </li>
                             </ul>

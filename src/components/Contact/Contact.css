@@ -13,14 +13,25 @@
   padding: 15px;
   font-size: 30px;
   border-radius: 50%;
-  margin-top: 48px;
 }
 
 p i {
-  font-size: 40px ;
+  font-size: 40px;
   padding-right: 10px;
 }
 
-.get-in-touch {
-  margin-left: 20px;
+@media (max-width: 576px) {
+  .social-links-contact {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #contacts-container {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  #get-in-touch-content {
+    display: block;
+  }
 }

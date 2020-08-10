@@ -50,8 +50,9 @@ class HomePage extends Component {
                            </div>
                         </Col>
                      </Row>
+                     
                      <Row>
-                        <Col className="container-jokes">
+                        <Col className="container-jokes pl-0">
                            <h4 className="joke-text">Quick Joke Of The Day</h4>
                            <p className="jokes">{jokeText}</p>
                         </Col>

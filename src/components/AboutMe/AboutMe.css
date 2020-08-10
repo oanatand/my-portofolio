@@ -1,31 +1,30 @@
-.about-me-grid {
-    height: 440px;
-    color: white;
-}
-
 .btn-download-cv {
-    width: 150px;
-    border-radius: 24px;
-    background-color: #101011c4;
-    color: white;
-    border: none;
-    padding: 14px 0;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
+  width: 150px;
+  border-radius: 24px;
+  background-color: #101011c4;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-.about-me-grid img {
-  margin: 40px;  
-  opacity: 0.6;
+.about-me-img {
+  margin: 40px;
+  width: 300px;
+  height: 400px;
 }
 
 .short-resume {
   margin-top: 17%;
 }
 
-/* @media screen and (max-width: 715px) {
-  .about-me-grid {
-    display: block;
+@media (max-width: 576px) {
+  #about-me-container {
+    text-align: center;
   }
-} */
+  .about-me-img {
+    margin: 30px 0 0 0;
+  }
+}
