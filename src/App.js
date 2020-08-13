@@ -27,7 +27,7 @@ class App extends Component {
                         this.setState({
                             isLoaded: true,
                             joke: {
-                                jonpmkeText: result.joke
+                                jokeText: result.joke
                             }
                         })
                     }
@@ -61,7 +61,7 @@ class App extends Component {
             );
         }
         else {
-            return <h2 className="text-white">Loading...</h2>;
+            return <h2>Loading...</h2>;
         }
     }
 }
