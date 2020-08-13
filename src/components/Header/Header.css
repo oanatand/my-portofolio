@@ -1,9 +1,9 @@
 .navbar {
-    background-color:  #1a1b1c;
+    background-color: #1a1b1c;
 }
 
 .container a {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     text-decoration: none;
 }
 
@@ -16,9 +16,9 @@ a:hover {
 }
 
 .home-button {
-    color: rgba(255,255,255,.5) !important;
+    color: rgba(255, 255, 255, .5) !important;
 }
 
 .home-button:hover {
-    color: rgba(255,255,255,0.700) !important;
+    color: rgba(255, 255, 255, 0.700) !important;
 }

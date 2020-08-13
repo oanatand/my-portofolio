@@ -6,14 +6,14 @@ import Col from 'react-bootstrap/Col';
 class Resume extends Component {
     render() {
         return (
-            <div className="container mt-3">
-                <Row className="border-top-white">
+            <div className="container mt-3 pb-4" id="resume">
+                <Row className="border-top-white pt-3">
                     <Col>
                         <h4 className="title">My Resume</h4>
                     </Col>
                 </Row>
 
-                <Row className="resume-grid" id="resume">
+                <Row className="resume-grid mb-4">
                     <Col>
                         <Row>
                             <Col className="col-2 pr-0">
@@ -39,7 +39,7 @@ class Resume extends Component {
                     </Col>
                 </Row>
 
-                <Row className="resume-grid">
+                <Row className="resume-grid mb-4">
                     <Col>
                         <Row>
                             <Col className="col-2 pr-0">

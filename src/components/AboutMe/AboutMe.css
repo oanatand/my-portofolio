@@ -8,6 +8,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .about-me-img {
@@ -20,11 +21,44 @@
   margin-top: 17%;
 }
 
+.fa-laptop::before {
+  padding-right: 10px;
+}
+
 @media (max-width: 576px) {
   #about-me-container {
     text-align: center;
   }
   .about-me-img {
     margin: 30px 0 0 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .about-me-img {
+    width: 250px;
+    height: 330px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+  .about-me-img {
+    width: 220px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 279px) {
+  .about-me-img {
+    width: 220px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .col>.short-resume {
+    display: block;
+    text-align: center;
+    margin-top: 0;
   }
 }

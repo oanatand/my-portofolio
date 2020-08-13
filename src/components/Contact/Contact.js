@@ -9,7 +9,7 @@ class Contact extends Component {
         return (
             <React.Fragment>
                 <div className="container" id="contacts-container">
-                    <Row className="contact-me">
+                    <Row className="contact-me pt-3">
                         <Col className="pl-0 pr-0">
                             <h4 className="font-weight-bold"> Get in Touch </h4>
                         </Col>

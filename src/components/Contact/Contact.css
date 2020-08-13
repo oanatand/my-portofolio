@@ -20,7 +20,7 @@ p i {
   padding-right: 10px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .social-links-contact {
     margin-left: 0;
     display: flex;

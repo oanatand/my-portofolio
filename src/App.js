@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './components/HomePage/HomePage';
@@ -22,12 +23,11 @@ class App extends Component {
             .then(res => res.json())
             .then(
                 (result) => {
-                    if (result.hasOwnProperty("joke"))
-                    {
+                    if (result.hasOwnProperty("joke")) {
                         this.setState({
                             isLoaded: true,
                             joke: {
-                                jokeText: result.joke
+                                jonpmkeText: result.joke
                             }
                         })
                     }
@@ -61,7 +61,7 @@ class App extends Component {
             );
         }
         else {
-            return <h2>Loading...</h2>;
+            return <h2 className="text-white">Loading...</h2>;
         }
     }
 }

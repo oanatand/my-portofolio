@@ -16,7 +16,12 @@ class AboutMe extends Component {
                     <Col>
                         <div className="short-resume">
                             <h4 className="font-weight-bold text-white">Who Am I</h4>
-                            <p className="text-white">My name is Oana Tand. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div className="text-white">My name is Oana Tand. I'am a future Web Developer, actively looking for a new life-changing opportunity.
+                            I'm a motivated, teamwork-oriented and resposible person.
+                                <div><i className="fa fa-laptop"></i>Front-end: JavaScript, HTML, CSS</div>
+                                <div><i className="fa fa-laptop"></i>Libraries: ReactJS, Bootstrap</div>
+                                <div><i className="fa fa-laptop"></i>Version control: Git, GitHub</div>
+                            </div>
                             <a href={CV_PDF} download="CV_Tand_Oana.pdf">
                                 <button className="btn-download-cv" type="button">
                                     <i className="fa fa-download"></i> Download CV

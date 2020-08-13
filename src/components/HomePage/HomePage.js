@@ -19,9 +19,9 @@ class HomePage extends Component {
             <header id="home-section">
                <div className="dark-overlay">
                   <div className="home-inner container">
-                     <Row>
-                        <Col>
-                           <div className="animated-title">
+                     <Row className="pb-0">
+                        <Col className="pr-0 pl-0">
+                           <div className="animated-title w-50">
                               <div className="text-top">
                                  <div>Hi, I’m Oana!</div>
                               </div>
@@ -33,7 +33,7 @@ class HomePage extends Component {
                         </Col>
                      </Row>
 
-                     <Row>
+                     <Row className="mb-5">
                         <Col>
                            <div className="social-links-homepage">
                               <a href="https://www.linkedin.com/in/oana-maria-tand-301195185/"
@@ -50,11 +50,13 @@ class HomePage extends Component {
                            </div>
                         </Col>
                      </Row>
-                     
+
                      <Row>
-                        <Col className="container-jokes pl-0">
-                           <h4 className="joke-text">Quick Joke Of The Day</h4>
-                           <p className="jokes">{jokeText}</p>
+                        <Col className="pl-0 pr-0">
+                           <div className="w-50">
+                              <h4 className="joke-title-heading">Quick Joke Of The Day</h4>
+                              <p className="joke-text">{jokeText}</p>
+                           </div>
                         </Col>
                      </Row>
                   </div>
